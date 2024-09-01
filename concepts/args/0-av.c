@@ -17,7 +17,7 @@ int main(int ac, char **av)
 		printf("few arguments passed!\n");
 		return (0);
 	}
-	for (i = 0; i < ac; i++)
+	for (i = 1; i < ac; i++)
 		printf("[%d] - %s\n", i, av[i]);
 
 	return (0);
